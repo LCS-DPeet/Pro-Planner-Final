@@ -37,6 +37,18 @@ struct ContentView: View {
             }
         }
         
+        // list of collections with drop down expandable sub collections
+        List {
+            Section (header: Text("your collections")) {
+                Text("Examples schedule")
+                
+            }
+        }
+        
+        
+        
+        
+        
     }
     
     
