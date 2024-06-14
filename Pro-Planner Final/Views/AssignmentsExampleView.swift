@@ -9,10 +9,30 @@ import SwiftUI
 
 struct AssignmentsExampleView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Image("example-image")
+            .resizable()
+            .scaledToFit()
+        
+        Text("Assignments")
+            .font(.title)
+            .fontWeight(.bold)
+        
+        Spacer()
+        
+        // your collections preview images for each collection
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack {
+            AssignmentRoundedSquares()
+            AssignmentRoundedSquares()
+            AssignmentRoundedSquares()
+            AssignmentRoundedSquares()
+            }
+            Spacer()
+            
+        }
     }
 }
-
 #Preview {
     AssignmentsExampleView()
 }

@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct NewItemCalenderView: View {
+    @Binding var isShowing: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                
+                Text("Add task or appointment")
+                Text ("Add a new repeating task")
+                Text ("Assign an image, date, or location")
+                
+            }
+            .navigationBarTitle("Add New Item", displayMode: .inline)
+            .navigationBarItems(leading: Button("Cancel") {
+                isShowing = false
+            })
+        }
     }
 }
 
-#Preview {
-    NewItemCalenderView()
-}

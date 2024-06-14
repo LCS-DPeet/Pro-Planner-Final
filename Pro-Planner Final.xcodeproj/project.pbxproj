@@ -12,6 +12,15 @@
 		C147C4C52C1A6FB900231B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C147C4C42C1A6FB900231B58 /* Assets.xcassets */; };
 		C147C4C82C1A6FB900231B58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C147C4C72C1A6FB900231B58 /* Preview Assets.xcassets */; };
 		C147C4CF2C1A718B00231B58 /* CollectionCatagorys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */; };
+		C147C4D32C1A798E00231B58 /* ExpandableRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4D22C1A798E00231B58 /* ExpandableRows.swift */; };
+		C147C4D52C1A846800231B58 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4D42C1A846800231B58 /* NewItemView.swift */; };
+		C147C4D72C1B29E100231B58 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4D62C1B29E100231B58 /* CalenderView.swift */; };
+		C147C4DF2C1B38D000231B58 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4DE2C1B38D000231B58 /* BottomNavBar.swift */; };
+		C147C4E32C1B3E4C00231B58 /* NewItemCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4E22C1B3E4B00231B58 /* NewItemCalenderView.swift */; };
+		C147C4E52C1B3EE800231B58 /* BottomNavBarCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4E42C1B3EE800231B58 /* BottomNavBarCalender.swift */; };
+		C147C4E82C1B436D00231B58 /* AssignmentsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */; };
+		C147C4EA2C1B53EF00231B58 /* AssignmentSquaresHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */; };
+		C14D5C302C1B680E00871D4D /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14D5C2F2C1B680D00871D4D /* UploadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +30,15 @@
 		C147C4C42C1A6FB900231B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C147C4C72C1A6FB900231B58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCatagorys.swift; sourceTree = "<group>"; };
+		C147C4D22C1A798E00231B58 /* ExpandableRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableRows.swift; sourceTree = "<group>"; };
+		C147C4D42C1A846800231B58 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		C147C4D62C1B29E100231B58 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		C147C4DE2C1B38D000231B58 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		C147C4E22C1B3E4B00231B58 /* NewItemCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCalenderView.swift; sourceTree = "<group>"; };
+		C147C4E42C1B3EE800231B58 /* BottomNavBarCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBarCalender.swift; sourceTree = "<group>"; };
+		C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsExampleView.swift; sourceTree = "<group>"; };
+		C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSquaresHelper.swift; sourceTree = "<group>"; };
+		C14D5C2F2C1B680D00871D4D /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				C147C4C02C1A6FB600231B58 /* Pro_Planner_FinalApp.swift */,
-				C147C4C22C1A6FB600231B58 /* ContentView.swift */,
-				C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */,
+				C147C4D02C1A793E00231B58 /* Views */,
+				C147C4E62C1B433000231B58 /* Helpers */,
+				C147C4D12C1A795E00231B58 /* Models */,
 				C147C4C42C1A6FB900231B58 /* Assets.xcassets */,
 				C147C4C62C1A6FB900231B58 /* Preview Content */,
 			);
@@ -68,6 +87,38 @@
 				C147C4C72C1A6FB900231B58 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C147C4D02C1A793E00231B58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C147C4C22C1A6FB600231B58 /* ContentView.swift */,
+				C147C4D42C1A846800231B58 /* NewItemView.swift */,
+				C147C4E22C1B3E4B00231B58 /* NewItemCalenderView.swift */,
+				C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */,
+				C147C4D62C1B29E100231B58 /* CalenderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C147C4D12C1A795E00231B58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */,
+				C147C4D22C1A798E00231B58 /* ExpandableRows.swift */,
+				C14D5C2F2C1B680D00871D4D /* UploadImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C147C4E62C1B433000231B58 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C147C4DE2C1B38D000231B58 /* BottomNavBar.swift */,
+				C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */,
+				C147C4E42C1B3EE800231B58 /* BottomNavBarCalender.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C147C4E82C1B436D00231B58 /* AssignmentsExampleView.swift in Sources */,
 				C147C4CF2C1A718B00231B58 /* CollectionCatagorys.swift in Sources */,
 				C147C4C32C1A6FB600231B58 /* ContentView.swift in Sources */,
+				C147C4DF2C1B38D000231B58 /* BottomNavBar.swift in Sources */,
+				C14D5C302C1B680E00871D4D /* UploadImage.swift in Sources */,
+				C147C4D72C1B29E100231B58 /* CalenderView.swift in Sources */,
+				C147C4E52C1B3EE800231B58 /* BottomNavBarCalender.swift in Sources */,
+				C147C4E32C1B3E4C00231B58 /* NewItemCalenderView.swift in Sources */,
+				C147C4EA2C1B53EF00231B58 /* AssignmentSquaresHelper.swift in Sources */,
+				C147C4D32C1A798E00231B58 /* ExpandableRows.swift in Sources */,
 				C147C4C12C1A6FB600231B58 /* Pro_Planner_FinalApp.swift in Sources */,
+				C147C4D52C1A846800231B58 /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
