@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ExpandableRow: View {
     @State private var isExpanded = false
+    
     let title: String
     let subItems: [String]?
     
@@ -33,8 +34,10 @@ struct ExpandableRow: View {
             
             if isExpanded, let subItems = subItems {
                 ForEach(subItems, id: \.self) { subItem in
-                    NavigationLink(destination: NewItemView(isShowing: .constant(true))) {
+                    NavigationLink(destination: TravelPlansExampleView(/*isShowing: .constant(true)*/)) {
+                        
                         Text(subItem)
+                        
                     }
                     .padding(.leading, 16)
                 }

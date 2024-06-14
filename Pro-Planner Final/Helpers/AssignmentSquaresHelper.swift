@@ -5,10 +5,17 @@
 //  Created by Danika Peet on 2024-06-13.
 //
 
-import Foundation
 import SwiftUI
 
 struct AssignmentRoundedSquares: View {
+    
+    @State var one: String = ""
+    @State var two: String = ""
+    @State var three: String = ""
+    @State var four: String = ""
+    
+    @State var arra = []
+    
     var body: some View {
         HStack {
             ZStack {
@@ -21,24 +28,28 @@ struct AssignmentRoundedSquares: View {
                     .foregroundColor(.gray)
                 
                 HStack {
-                    Spacer(minLength: 65)
+                    Spacer()
                     
-                    TextField("Title", text: .constant(""))
+                    TextField("Title", text: $three, axis: .vertical)
                         .foregroundStyle(.black)
                         .font(.title)
                         .padding(.top, -90)
+                        .multilineTextAlignment(.center)
                     
                 }
                 
                 HStack {
                     
-                    Spacer(minLength: 10)
+                   
                     
-                    TextField("Information", text: .constant(""))
+                    TextField("Information", text: $one, axis: .vertical)
+                        .lineLimit(1...100)
                         .foregroundStyle(.black)
                         .font(.subheadline)
                         .padding(.top, -50)
+                        .multilineTextAlignment(.center)
                     
+                    Spacer(minLength: 65)
                     
                 }
             }
@@ -48,26 +59,30 @@ struct AssignmentRoundedSquares: View {
                     .frame(height: 200)
                     .padding(5)
                     .foregroundColor(.gray)
+                    
                 
                 HStack{
                     
-                    Spacer(minLength: 65)
+                    Spacer()
                     
-                    TextField("Title", text: .constant(""))
+                    TextField("Title", text: $four, axis: .vertical)
                         .foregroundStyle(.black)
                         .font(.title)
                         .padding(.top, -90)
+                        .multilineTextAlignment(.center)
                     
                 }
                 HStack {
                     
-                    Spacer(minLength: 10)
+                
                     
-                    TextField("Information", text: .constant(""))
+                    TextField("Information", text: $two, axis: .vertical)
                         .foregroundStyle(.black)
                         .font(.subheadline)
                         .padding(.top, -50)
+                        .multilineTextAlignment(.center)
                     
+                    Spacer(minLength: 65)
                     
                 }
             }

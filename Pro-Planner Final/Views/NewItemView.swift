@@ -11,7 +11,7 @@ struct NewItemView: View {
     @Binding var isShowing: Bool
     @State var selectionResult: PhotosPickerItem?
     @State var newItemImage: UploadImage?
-
+    
     
     var body: some View {
         NavigationView {
@@ -30,7 +30,7 @@ struct NewItemView: View {
                         newItemImage.image
                             .resizable()
                             .scaledToFit()
-
+                        
                     } else {
                         
                         // No, show an icon instead

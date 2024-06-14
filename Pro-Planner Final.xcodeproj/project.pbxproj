@@ -21,6 +21,10 @@
 		C147C4E82C1B436D00231B58 /* AssignmentsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */; };
 		C147C4EA2C1B53EF00231B58 /* AssignmentSquaresHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */; };
 		C14D5C302C1B680E00871D4D /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14D5C2F2C1B680D00871D4D /* UploadImage.swift */; };
+		C1FE17322C1C7AA8006EC7E2 /* HomePageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17312C1C7AA8006EC7E2 /* HomePageExampleView.swift */; };
+		C1FE17342C1C7BDC006EC7E2 /* WatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17332C1C7BDC006EC7E2 /* WatchListView.swift */; };
+		C1FE17362C1C7C8F006EC7E2 /* RecipesListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17352C1C7C8F006EC7E2 /* RecipesListExampleView.swift */; };
+		C1FE17392C1C7FDD006EC7E2 /* TravelPlansExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17382C1C7FDD006EC7E2 /* TravelPlansExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsExampleView.swift; sourceTree = "<group>"; };
 		C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentSquaresHelper.swift; sourceTree = "<group>"; };
 		C14D5C2F2C1B680D00871D4D /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		C1FE17312C1C7AA8006EC7E2 /* HomePageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageExampleView.swift; sourceTree = "<group>"; };
+		C1FE17332C1C7BDC006EC7E2 /* WatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListView.swift; sourceTree = "<group>"; };
+		C1FE17352C1C7C8F006EC7E2 /* RecipesListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListExampleView.swift; sourceTree = "<group>"; };
+		C1FE17382C1C7FDD006EC7E2 /* TravelPlansExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlansExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 				C147C4E22C1B3E4B00231B58 /* NewItemCalenderView.swift */,
 				C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */,
 				C147C4D62C1B29E100231B58 /* CalenderView.swift */,
+				C1FE17312C1C7AA8006EC7E2 /* HomePageExampleView.swift */,
+				C1FE17372C1C7C9E006EC7E2 /* Home page views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +129,16 @@
 				C147C4E42C1B3EE800231B58 /* BottomNavBarCalender.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C1FE17372C1C7C9E006EC7E2 /* Home page views */ = {
+			isa = PBXGroup;
+			children = (
+				C1FE17352C1C7C8F006EC7E2 /* RecipesListExampleView.swift */,
+				C1FE17382C1C7FDD006EC7E2 /* TravelPlansExampleView.swift */,
+				C1FE17332C1C7BDC006EC7E2 /* WatchListView.swift */,
+			);
+			path = "Home page views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +213,17 @@
 			files = (
 				C147C4E82C1B436D00231B58 /* AssignmentsExampleView.swift in Sources */,
 				C147C4CF2C1A718B00231B58 /* CollectionCatagorys.swift in Sources */,
+				C1FE17342C1C7BDC006EC7E2 /* WatchListView.swift in Sources */,
+				C1FE17322C1C7AA8006EC7E2 /* HomePageExampleView.swift in Sources */,
 				C147C4C32C1A6FB600231B58 /* ContentView.swift in Sources */,
 				C147C4DF2C1B38D000231B58 /* BottomNavBar.swift in Sources */,
 				C14D5C302C1B680E00871D4D /* UploadImage.swift in Sources */,
 				C147C4D72C1B29E100231B58 /* CalenderView.swift in Sources */,
 				C147C4E52C1B3EE800231B58 /* BottomNavBarCalender.swift in Sources */,
 				C147C4E32C1B3E4C00231B58 /* NewItemCalenderView.swift in Sources */,
+				C1FE17392C1C7FDD006EC7E2 /* TravelPlansExampleView.swift in Sources */,
 				C147C4EA2C1B53EF00231B58 /* AssignmentSquaresHelper.swift in Sources */,
+				C1FE17362C1C7C8F006EC7E2 /* RecipesListExampleView.swift in Sources */,
 				C147C4D32C1A798E00231B58 /* ExpandableRows.swift in Sources */,
 				C147C4C12C1A6FB600231B58 /* Pro_Planner_FinalApp.swift in Sources */,
 				C147C4D52C1A846800231B58 /* NewItemView.swift in Sources */,
