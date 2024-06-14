@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct ExpandableRow: View {
+struct ExpandableRow<Content: View>: View {
     @State private var isExpanded = false
     
     let title: String
     let subItems: [String]?
+    
+    @ViewBuilder let destination: Content
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -34,7 +36,7 @@ struct ExpandableRow: View {
             
             if isExpanded, let subItems = subItems {
                 ForEach(subItems, id: \.self) { subItem in
-                    NavigationLink(destination: TravelPlansExampleView(/*isShowing: .constant(true)*/)) {
+                    NavigationLink(destination: destination) {
                         
                         Text(subItem)
                         
@@ -43,13 +45,9 @@ struct ExpandableRow: View {
                 }
             }
         }
-        .padding(.vertical, 4)
     }
 }
 
 #Preview {
-    NavigationStack {
-        ExpandableRow(title: "Sample Title", subItems: ["SubItem 1", "SubItem 2", "SubItem"]
-        )
-    }
+    ContentView()
 }

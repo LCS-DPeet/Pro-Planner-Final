@@ -7,12 +7,37 @@
 
 import SwiftUI
 
+
 struct WatchListView: View {
+    
+    @Binding var isShowing: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+        Image("example-image")
+            .resizable()
+            .scaledToFit()
+        
+        Text("Watch List")
+            .font(.title)
+            .foregroundStyle(.black)
+        
+        
+        HStack {
+            
+            Text("To Watch List:")
+                .font(.title2)
+                .padding()
+            
+            Spacer()
+            
+        }
+        
+        
     }
 }
 
+
 #Preview {
-    WatchListView()
+    WatchListView(isShowing: Binding.constant(true))
 }

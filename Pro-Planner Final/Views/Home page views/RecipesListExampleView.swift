@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct RecipesListExampleView: View {
+    
+    @Binding var isShowing: Bool
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    RecipesListExampleView()
+    RecipesListExampleView(isShowing: Binding.constant(true))
 }

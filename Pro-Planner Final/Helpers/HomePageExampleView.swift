@@ -24,20 +24,21 @@ struct HomePageExampleView: View {
                 .fontWeight(.bold)
             
             // list of items on your home page
-            List {
+    
+            LazyVStack(alignment: .leading, spacing: 8) {
                 
-                //Nav link to Movie watch list
-                NavigationLink("Movie Watch List", destination: WatchListView())
+                //Nav link to calender
                 
-                //nav link to recipies page
-                NavigationLink("Recipes", destination: RecipesListExampleView())
+                ExpandableRow(title: "Watch List Example", subItems: ["Movies", "Tv Shows"], destination: {WatchListView(isShowing: Binding.constant(true))})
                 
-                ExpandableRow(title: "Travel Plans", subItems: ["Silent Lake Trip", "Canadas Wonderland", "Greece Trip", "July Trip"])
-                ExpandableRow(title: "Example Collection 3", subItems: ["Example Subcollection 5", "Example Subcollection 6"])
+                ExpandableRow(title: "Recipes List Example", subItems: ["Non Cooking Recipes", "Favorite Recipes"], destination: {RecipesListExampleView(isShowing: Binding.constant(true))})
                 
-                Text("Example Collection Page with No Subcollections")
+                
                 
             }
+            .tint(.black)
+            .padding(.horizontal, 16)
+            Spacer()
             
             
             

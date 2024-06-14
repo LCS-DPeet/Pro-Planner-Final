@@ -107,7 +107,6 @@
 				C147C4E22C1B3E4B00231B58 /* NewItemCalenderView.swift */,
 				C147C4E72C1B436D00231B58 /* AssignmentsExampleView.swift */,
 				C147C4D62C1B29E100231B58 /* CalenderView.swift */,
-				C1FE17312C1C7AA8006EC7E2 /* HomePageExampleView.swift */,
 				C1FE17372C1C7C9E006EC7E2 /* Home page views */,
 			);
 			path = Views;
@@ -127,6 +126,7 @@
 				C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */,
 				C147C4D22C1A798E00231B58 /* ExpandableRows.swift */,
 				C147C4DE2C1B38D000231B58 /* BottomNavBar.swift */,
+				C1FE17312C1C7AA8006EC7E2 /* HomePageExampleView.swift */,
 				C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */,
 				C147C4E42C1B3EE800231B58 /* BottomNavBarCalender.swift */,
 				C1FE173A2C1C833B006EC7E2 /* TestView.swift */,
