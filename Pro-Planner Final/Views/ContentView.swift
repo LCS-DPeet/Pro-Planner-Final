@@ -35,14 +35,13 @@ struct ContentView: View {
                     CollectionCatagoryView (imageName: "example-image", title: "my")
                     CollectionCatagoryView (imageName: "example-image", title: "old")
                     CollectionCatagoryView (imageName: "example-image", title: "friend")
-                    
                 }
-               
             }
             // bottom bar on the homescreen page
             BottomNavBar()
             
             // list of collections with drop down expandable sub collections
+            
             List {
                 Section(header: Text("Your Collections")) {
                     
@@ -53,18 +52,16 @@ struct ContentView: View {
                     
                     ExpandableRow(title: "Example Collection 2", subItems: ["Example Subcollection 3", "Example Subcollection 4"])
                     ExpandableRow(title: "Example Collection 3", subItems: ["Example Subcollection 5", "Example Subcollection 6"])
+                    ExpandableRow(title: "Sample Title", subItems: ["SubItem 1", "SubItem 2", "SubItem"]
+                    )
                     
                     Text("Example Collection Page with No Subcollections")
                 }
+                
             }
-          
-            
-            
+            .listStyle(.plain)
         }
-      
-
     }
-
 }
 
 

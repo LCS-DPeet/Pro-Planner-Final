@@ -25,6 +25,7 @@
 		C1FE17342C1C7BDC006EC7E2 /* WatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17332C1C7BDC006EC7E2 /* WatchListView.swift */; };
 		C1FE17362C1C7C8F006EC7E2 /* RecipesListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17352C1C7C8F006EC7E2 /* RecipesListExampleView.swift */; };
 		C1FE17392C1C7FDD006EC7E2 /* TravelPlansExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE17382C1C7FDD006EC7E2 /* TravelPlansExampleView.swift */; };
+		C1FE173B2C1C833B006EC7E2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE173A2C1C833B006EC7E2 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		C1FE17332C1C7BDC006EC7E2 /* WatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListView.swift; sourceTree = "<group>"; };
 		C1FE17352C1C7C8F006EC7E2 /* RecipesListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListExampleView.swift; sourceTree = "<group>"; };
 		C1FE17382C1C7FDD006EC7E2 /* TravelPlansExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlansExampleView.swift; sourceTree = "<group>"; };
+		C1FE173A2C1C833B006EC7E2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +116,6 @@
 		C147C4D12C1A795E00231B58 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */,
-				C147C4D22C1A798E00231B58 /* ExpandableRows.swift */,
 				C14D5C2F2C1B680D00871D4D /* UploadImage.swift */,
 			);
 			path = Models;
@@ -124,9 +124,12 @@
 		C147C4E62C1B433000231B58 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C147C4CE2C1A718B00231B58 /* CollectionCatagorys.swift */,
+				C147C4D22C1A798E00231B58 /* ExpandableRows.swift */,
 				C147C4DE2C1B38D000231B58 /* BottomNavBar.swift */,
 				C147C4E92C1B53EF00231B58 /* AssignmentSquaresHelper.swift */,
 				C147C4E42C1B3EE800231B58 /* BottomNavBarCalender.swift */,
+				C1FE173A2C1C833B006EC7E2 /* TestView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				C147C4DF2C1B38D000231B58 /* BottomNavBar.swift in Sources */,
 				C14D5C302C1B680E00871D4D /* UploadImage.swift in Sources */,
 				C147C4D72C1B29E100231B58 /* CalenderView.swift in Sources */,
+				C1FE173B2C1C833B006EC7E2 /* TestView.swift in Sources */,
 				C147C4E52C1B3EE800231B58 /* BottomNavBarCalender.swift in Sources */,
 				C147C4E32C1B3E4C00231B58 /* NewItemCalenderView.swift in Sources */,
 				C1FE17392C1C7FDD006EC7E2 /* TravelPlansExampleView.swift in Sources */,

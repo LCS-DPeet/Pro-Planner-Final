@@ -47,10 +47,9 @@ struct ExpandableRow: View {
     }
 }
 
-struct ExpandableRow_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationStack {
-            ExpandableRow(title: "Sample Title", subItems: ["SubItem 1", "SubItem 2", "SubItem 3"])
-        }
+#Preview {
+    NavigationStack {
+        ExpandableRow(title: "Sample Title", subItems: ["SubItem 1", "SubItem 2", "SubItem"]
+        )
     }
 }
